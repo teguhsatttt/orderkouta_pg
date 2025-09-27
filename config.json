@@ -1,0 +1,25 @@
+{
+  "telegram": {
+    "bot_token": "PUT_TELEGRAM_BOT_TOKEN_HERE",
+    "vip_chat_id": -1001234567890,
+    "admin_chat_ids": [
+      123456789
+    ]
+  },
+  "rafathar": {
+    "base_url": "https://restapi.rafatharcode.apibotwa.biz.id",
+    "apikey": "ISI_APIKEY_KAMU",
+    "merchant": "okeconnect",
+    "id": "okeconnect",
+    "pin": "1234",
+    "password": "keyorkut"
+  },
+  "order": {
+    "payment_window_sec": 900,
+    "poll_interval_sec": 10
+  },
+  "logging": {
+    "dir": "data",
+    "audit_jsonl": "data/audit.jsonl"
+  }
+}
